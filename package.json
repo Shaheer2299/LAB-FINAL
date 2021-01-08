@@ -3,13 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-"dev": "react-scripts start",
-"start": "serve -s build",
-"build": "react-scripts build",
-"test": "react-scripts test --env=jsdom",
-"eject": "react-scripts eject",
-"heroku-postbuild": "npm run build"
-},
+    "start": "node ./bin/www"
+  },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "bcrypt": "^5.0.0",
@@ -26,8 +21,7 @@
     "lodash": "^4.17.20",
     "mongoose": "^5.10.18",
     "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11",
-    "serve": "^11.3.2"
+    "pug": "2.0.0-beta11"
   },
   "main": "app.js",
   "devDependencies": {},
